@@ -36,7 +36,7 @@ public class BinarySearch {
 	}
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 8, 4, 7, 9, 2222, 6, 52, 66, 77, 88, 99, 100 };
+            		int arr[] = { 1, 8, 4, 7, 9, 2222, 6, 52, 66, 77, 88, 99, 100 };
 		boolean b = search(arr, 2222);
 		System.out.println(b);
 	}
