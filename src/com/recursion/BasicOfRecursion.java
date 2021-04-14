@@ -25,6 +25,7 @@ package com.recursion;
  */
 
 public class BasicOfRecursion {
+/*
 	
    public static int sumOfN(int n) {
 	   
@@ -39,9 +40,22 @@ public class BasicOfRecursion {
     	}
 	   
     }
+*/
+    static int i=0;
+	public static void advancedRecrusion(int n) {
+		if(n != 0) {
+			i++;
+	        advancedRecrusion(n-1);                       
+			System.out.println("exit if "+n);
+			advancedRecrusion(n-1);
+			System.out.println("Exit if of if "+n);
+		}
+	}
+	
     public static void main(String[] args) {
-	   int sum = sumOfN(5);
-	   System.out.println(sum);
+//	   int sum = sumOfN(5);
+//	   System.out.println(sum);
+       advancedRecrusion(5);
 	}
 
 }
