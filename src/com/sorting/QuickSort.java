@@ -53,6 +53,7 @@ public class QuickSort {
 		}
 		if (pi < high) {
 			quickRecursion(arr, pi, high);
+		
 		}
 	} // End of quickRecursion
 
