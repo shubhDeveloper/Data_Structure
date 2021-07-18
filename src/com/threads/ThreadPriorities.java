@@ -25,7 +25,7 @@ public class ThreadPriorities extends Thread{
 	
 	public static void main(String[] args) {
 		Thread.currentThread().setPriority(1);
-		System.out.println(Thread.currentThread().getPriority());  //priority 1
+		System.out.println(Thread.currentThread().getPriority())  //priority 1
 		ThreadPriorities thread = new ThreadPriorities();
 		thread.start();
 
