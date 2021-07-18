@@ -16,7 +16,7 @@ package com.threads;
    5) By default main thread priority is 5  
 
 
- */
+ *///////
 public class ThreadPriorities extends Thread{
 
 	public void run() {
